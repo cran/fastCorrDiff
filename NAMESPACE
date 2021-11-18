@@ -1,0 +1,5 @@
+export("CaiSpectral", "fast.SS", "SS", "SS.boot")
+import(Matrix,irlba,plyr)
+importFrom("stats", "cor", "rgeom")
+importFrom("RSpectra","eigs_sym")
+
